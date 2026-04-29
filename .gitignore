@@ -216,3 +216,30 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# =======================================================
+# Custom Ignore for TCGA-LUAD Bioinformatics Project
+# =======================================================
+
+# 1. Large Data files
+*.csv
+*.tsv
+*.txt
+*.xlsx
+*.h5
+*.rda
+*.rds
+data/raw/
+data/processed/
+
+# 2. Google Colab / Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# 3. R environment files
+.Rhistory
+.RData
+.Ruserdata
+
+# 4. OS generated files
+.DS_Store
+Thumbs.db
