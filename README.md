@@ -28,18 +28,11 @@ eval: Validate the model's predictive accuracy on the unseen Test Set (30%) usin
 ### Step 0: cBioPortal interface
 <img width="1440" height="2036" alt="Image" src="https://github.com/user-attachments/assets/c32d7cb0-e99b-43e1-99f6-ff6338a2a859" />
 
-1) Download Data
-
-2) Gene Query
-
-3) Data Types vs Case Lists: genomic data(RSEM)와 clinical data(Samples with mRNA data) 수가 510으로 일치 => Data Integrity
-
-4) Tumor Type: 'Lung Adenocarcinoma (NOS)', 'Lung Adenocarcinoma, Mixed Subtype', 'Lung Adenocarcinoma', 'Lung Papillary Adenocarcinoma', etc
-
-5) Genetic Ancestry Label: 'EUR'(86.7%), 'AFR'(7.2%), 'AFR_ADMIX'(3.2%), 'EAS'(9%), 'AMR'(0.2%), 'NA'(1.1%)
-
-6) Mutated Genes
-
-7) [Gene Query] - [Comparison/Survival] - [Survival]: DSS vs OS
-
-8) Hazard ratio
+1) Download Data  
+2) Gene Query  
+3) Data Types vs Case Lists: genomic data(RSEM)와 clinical data(Samples with mRNA data) 수가 510으로 일치
+4) Tumor Type: 'Lung Adenocarcinoma (NOS)', 'Lung Adenocarcinoma, Mixed Subtype', 'Lung Adenocarcinoma', 'Lung Papillary Adenocarcinoma', etc  
+5) Genetic Ancestry Label: 'EUR'(86.7%), 'AFR'(7.2%), 'AFR_ADMIX'(3.2%), 'EAS'(9%), 'AMR'(0.2%), 'NA'(1.1%)  
+6) Mutated Genes  
+7) [Gene Query] - [Comparison/Survival] - [Survival]: DSS vs OS  
+8) Hazard Ratio  
