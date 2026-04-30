@@ -24,3 +24,6 @@ model: Train a multivariate survival model (e.g., Multivariate Cox, Random Fores
 
 Step 7: Model Evaluation
 eval: Validate the model's predictive accuracy on the unseen Test Set (30%) using C-index and Time-dependent ROC-AUC.
+
+## Step 0: cBioPortal interface
+<img width="1440" height="2036" alt="Image" src="https://github.com/user-attachments/assets/c32d7cb0-e99b-43e1-99f6-ff6338a2a859" />
