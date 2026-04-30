@@ -27,6 +27,7 @@ eval: Validate the model's predictive accuracy on the unseen Test Set (30%) usin
 
 ### Step 0: cBioPortal interface
 <img width="1440" height="2036" alt="Image" src="https://github.com/user-attachments/assets/c32d7cb0-e99b-43e1-99f6-ff6338a2a859" />
+
 1) Download Data
 
 2) Gene Query
