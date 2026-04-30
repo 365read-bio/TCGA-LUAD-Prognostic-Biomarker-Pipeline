@@ -2,7 +2,7 @@
 A data wrangling and downstream analysis pipeline for TCGA-LUAD. The project aims to build a prognostic model for patient survival. Workflow: DGE analysis(tumor vs normal), Univariate Cox, Elastic Net regression, model training(Multivariate Cox Regression / Random Forest Survival), evaluation(C-index / Time-dependent ROC-AUC).
 
 ## 🧬 Workflow Steps
-Step 1: Data Acquisition & Setup
+Step 1: Data Acquisition & Setup  
 data: Fetch TCGA-LUAD clinical profiles and pre-normalized mRNA expression data (RSEM z-scores) via cBioPortal.
 
 Step 2: Data Wrangling & Train/Test Splitting
