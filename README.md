@@ -1,5 +1,5 @@
 # TCGA-LUAD-Prognostic-Biomarker-Pipeline
-A data wrangling and downstream analysis pipeline for TCGA-LUAD. The project aims to build a prognostic model for patient survival. Workflow: DGE analysis(tumor vs normal), Univariate Cox, Elastic Net regression, model training(Multivariate Cox Regression / Random Forest Survival), evaluation(C-index / Time-dependent ROC-AUC).
+A data wrangling and downstream analysis pipeline for TCGA-LUAD. The project aims to build a prognostic model for patient survival. Workflow: DGE analysis(tumor vs normal), Univariate Cox, Elastic Net regression, model training(Multivariate Cox Regression), evaluation(C-index / Time-dependent ROC-AUC).
 
 ## 🧬 Workflow Steps
 Step 1: Data Acquisition & Setup  
@@ -20,7 +20,7 @@ ml-prep: Apply Elastic Net Regression to the survival-associated genes to elimin
 signature: Extract the final core gene signature (expected ~5-20 genes) that forms the prognostic biomarker panel.
 
 Step 6: Model Training  
-model: Train a multivariate survival model (e.g., Multivariate Cox, Random Forest Survival) using the final gene signature on the Training Set.
+model: Train a multivariate survival model (Multivariate Cox) using the final gene signature on the Training Set.
 
 Step 7: Model Evaluation  
 eval: Validate the model's predictive accuracy on the unseen Test Set (30%) using C-index and Time-dependent ROC-AUC.
